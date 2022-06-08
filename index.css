@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1, main h2 {
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+}
+
+main hr {
+  width: 40%;
+  margin: 1em auto;
+}
+
+main img {
+  text-align: center;
+  margin-left: 10%;
+  max-width: 80%;
+  border: 2px solid #000;
+}
+
+main ol {
+  margin-left: 10%;
+}
+
+.link-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.link-box a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1em 2em;
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 1.5em;
+  cursor: pointer;
+  transform: rotateZ(0deg);
+  transition: transform 100ms ease-in-out;
+}
+
+.link-box a:hover {
+  transform: rotateZ(5deg);
+}
+
+.link-box a:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
